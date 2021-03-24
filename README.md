@@ -34,6 +34,8 @@ Given the argument `xValue` having value `6` the expected return for `i` should 
 
 The values contained within the `ChartDataSet`, along with their indexes, are printed in the bottom right of figure 2.
 
+The overall result is that the `entriesForXValue` func returns an empty array and the chart highlighting / selection fails for that tap.
+
 ![Stack](./imgs/bug_entries_for_xvalue_func.png)
 
 _**Figure 2**: Call stack showing where filtering goes wrong_
